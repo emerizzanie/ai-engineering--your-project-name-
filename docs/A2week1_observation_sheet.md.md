@@ -3,7 +3,11 @@
 **Course:** AI Engineering — Topic 1 Lab  
 **Group:** 2  
 **System name:** ChatGPT  
-**Group members:** [Add all group members' names]
+
+| Member 1 | Member 2 | Member 3 | Member 4 | Member 5 |
+| :--- | :--- | :--- | :--- | :--- |
+| EMER IZZANIE BIN AZHARI <br>(A24AI0025) | AMIROL AQASHAH BIN AHMAD JUHAIRIMI <br>(A24AI0017) | HARRIS MUHAMMAD BIN HAMIDI <br>(A24AI0031) | MUHAMMAD FARKHIN BIN ABD BASER <br>(A24AI0055) | MOHAMAD KHAMSAH BIN MOHAMAD NAFIS <br>(A24AI0047) |
+
 
 > This is a draft observation sheet based on the responses available in the testing conversation. Review it against your group's actual test results and screenshots before submission.
 
