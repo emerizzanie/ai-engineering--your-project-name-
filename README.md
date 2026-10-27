@@ -1,8 +1,8 @@
-# Project Audit
+# ResponsibleAI Guide
 
-**A RAG-based assistant that helps students review the responsible AI side of their AI projects**
+**ResponsibleAI Guide: A RAG-Based Assistant for Responsible AI Risk Identification in Student Projects**
 
-Project Audit is my semester project for AI Engineering. A student describes their AI project and the system looks through public responsible AI guidelines. Which is to explain possible risks, show where the information came from and give a simple checklist to think about.
+ResponsibleAI Guide is my semester project for AI Engineering. A student describes their AI project and the system looks through public responsible AI guidelines. Which is to explain possible risks, show where the information came from and give a simple checklist to think about.
 
 > This project is still at the planning stage (Week 1/2). Nothing is built yet, and this README will be updated later on.
 
@@ -14,7 +14,7 @@ When students build AI projects, they mostly focus on getting the model to work.
 
 Guidelines about these topics exist, but they are long which is written in general terms and spread across different documents. It hard for student to know which parts apply to their own project.
 
-Project Audit tries to help by finding the relevant parts of the guidelines and explaining them in simple words with the source shown.
+ResponsibleAI Guide tries to help by finding the relevant parts of the guidelines and explaining them in simple words with the source shown.
 
 ---
 
@@ -44,7 +44,7 @@ This is a first search only. I will check for more similar tools later.
 
 ## Engineering Gap
 
-The tools I found mostly focus on EU or US documents and on compliance. Project Audit tries to fill the gap by:
+The tools I found mostly focus on EU or US documents and on compliance. ResponsibleAI Guide tries to fill the gap by:
 
 - being made for **students**, with simple explanations
 - adding **Malaysian and ASEAN** guidance next to NIST
@@ -108,6 +108,6 @@ This plan is rough and will be updated each week.
 
 ## Limitations
 
-Project Audit is for learning and a first review only. It cannot replace expert advice, it may miss risks, and it does not approve or certify any project.
+ResponsibleAI Guide is for learning and a first review only. It cannot replace expert advice, it may miss risks, and it does not approve or certify any project.
 
 ---

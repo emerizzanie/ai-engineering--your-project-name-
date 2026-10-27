@@ -1,14 +1,14 @@
-# Week 1 Project Scope: Project Audit
+# Week 1 Project Scope: ResponsibleAI Guide
 
 ## 1. Project Name and Domain
 
-**Project name:** Project Audit
+**Project name:** ResponsibleAI Guide
 
-**Full title:** Project Audit: A RAG-Based Assistant for Reviewing Responsible AI Practices in Student AI Projects
+**Full title:** ResponsibleAI Guide: A RAG-Based Assistant for Responsible AI Risk Identification in Student Projects
 
 **Domain:** AI Engineering (Generative AI and Responsible AI), in a university setting
 
-Project Audit is a study assistant for students who are building an AI project. The student describes their project in normal language, for example "a chatbot that answers questions using university PDFs". The system then searches a small set of public responsible AI guidelines, explains which risks might matter for that project, shows where the information came from and gives a simple checklist to think about.
+ResponsibleAI Guide is a study assistant for students who are building an AI project. The student describes their project in normal language, for example "a chatbot that answers questions using university PDFs". The system then searches a small set of public responsible AI guidelines, explains which risks might matter for that project, shows where the information came from and gives a simple checklist to think about.
 
 It uses Retrieval-Augmented Generation (RAG). In simple terms, the system first finds the most relevant parts of the documents, then gives those parts to a large language model (LLM) so the answer is based on real sources and not only on what the model remembers.
 
@@ -20,11 +20,11 @@ When students build an AI project, most of the focus goes on making the model wo
 
 Guidelines for these topics do exist, but they are long, written in general terms, and spread across different documents. A student may not know which parts apply to their own project, and reading everything takes a lot of time.
 
-Project Audit tries to make this easier. The student describes their project, and the system points to the relevant guidance in simple words with a reference to the source.
+ResponsibleAI Guide tries to make this easier. The student describes their project, and the system points to the relevant guidance in simple words with a reference to the source.
 
 An AI-based solution makes sense here because an LLM can understand a project description written in everyday language and explain the guidance clearly. A normal keyword search would not do this well. RAG is used so that the answers are tied to the real documents, which reduces the chance of the model making things up.
 
-Project Audit is for learning and early review only. It does not replace a teacher or an expert, and it does not decide whether a project is "safe".
+ResponsibleAI Guide is for learning and early review only. It does not replace a teacher or an expert, and it does not decide whether a project is "safe".
 
 ---
 
@@ -83,7 +83,7 @@ Link: https://github.com/Zaid0205/-AI_Governance_Assistant
 
 The frameworks give good guidance, but they are long and general. The similar tools I found focus mostly on EU or US documents and on compliance, not on helping students.
 
-The gap Project Audit tries to cover:
+The gap ResponsibleAI Guide tries to cover:
 
 - It is made for **students**, so the explanations are in simple language.
 - It uses **Malaysian and ASEAN guidance** together with NIST, which the tools above do not.
@@ -136,9 +136,9 @@ For each document I will record the title, publisher, year and version, and the 
 - Both are tested on accuracy and on how well they use their sources.
 
 **Different:**
-- EduAdvisor answers academic advising questions (courses, policies, graduation) using university documents. Project Audit helps with responsible AI using NIST, Malaysian and ASEAN guidelines.
-- EduAdvisor mostly answers a question. Project Audit also takes a project description and produces a checklist.
-- Project Audit will be compared with a plain LLM baseline, to see if retrieval really helps.
+- EduAdvisor answers academic advising questions (courses, policies, graduation) using university documents. ResponsibleAI Guide helps with responsible AI using NIST, Malaysian and ASEAN guidelines.
+- EduAdvisor mostly answers a question. ResponsibleAI Guide also takes a project description and produces a checklist.
+- ResponsibleAI Guide will be compared with a plain LLM baseline, to see if retrieval really helps.
 
 ---
 
@@ -168,6 +168,6 @@ Students might type private details into the system, and the text may be sent to
 
 ## Project Boundary
 
-For the first version, Project Audit will only cover a small set of public documents, retrieval, LLM answers with sources, a simple checklist, and basic testing.
+For the first version, ResponsibleAI Guide will only cover a small set of public documents, retrieval, LLM answers with sources, a simple checklist, and basic testing.
 
 It will not try to cover every framework, give legal or compliance decisions, or approve any project.
