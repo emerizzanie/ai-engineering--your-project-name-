@@ -1,34 +1,34 @@
 # Project Audit — 3-Minute Presentation
 
-## 1. Project Title (20 seconds)
+## 1. Project Title
 - My project is called **Project Audit: A RAG-Based Assistant for Reviewing Responsible AI Practices in Student Projects**.
 - It focuses on Generative AI, Retrieval-Augmented Generation (RAG), and Responsible AI.
 - The main idea is to help students review potential risks in their AI projects using reliable guidelines and references.
 
-## 2. Problem Background and Motivation (40 seconds)
+## 2. Problem Background and Motivation
 - When students develop AI projects, they need to consider issues such as privacy, fairness, reliability, and the impact of AI on users.
 - Guidelines about these issues are available from organisations such as NIST and UNESCO.
 - However, the information can be spread across different documents, and students may find it difficult to identify which guidelines are relevant to their projects.
 - I want to explore whether an AI assistant can make these guidelines easier to find and understand.
 
-## 3. Problem Statement (30 seconds)
+## 3. Problem Statement
 - Students may need to manually search through several documents to understand the Responsible AI risks related to their projects.
 - A general AI chatbot may also provide answers that are not properly supported by reliable sources.
 - Therefore, this project will investigate how a RAG-based assistant can provide project-specific explanations supported by retrieved guidelines and references.
 
-## 4. Proposed Solution (40 seconds)
+## 4. Proposed Solution
 - I plan to develop a simple web application using Streamlit.
 - Students will enter their project details through a form, including the project's purpose, target users, and data used.
 - The system will retrieve relevant information from public Responsible AI documents.
 - An LLM will use the retrieved information to generate a preliminary review containing potential risks, suggested actions, and source references.
 - PDF upload may be added later if time allows.
 
-## 5. Objectives (30 seconds)
+## 5. Objectives
 - **Objective 1:** Collect and organise publicly available Responsible AI guidelines and frameworks.
 - **Objective 2:** Develop a RAG-based assistant that explains potential Responsible AI risks using retrieved sources.
 - **Objective 3:** Evaluate the system based on retrieval relevance, answer accuracy, citation accuracy, and its handling of questions that cannot be answered from the available documents.
 
-## 6. Expected Outcome (20 seconds)
+## 6. Expected Outcome
 - The expected outcome is a working prototype that helps students understand potential Responsible AI issues in their projects.
 - It will provide explanations and references so students can check the original guidelines.
 - The system is intended for preliminary review and learning, not formal safety certification or compliance approval.
