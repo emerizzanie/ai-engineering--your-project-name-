@@ -1,4 +1,4 @@
-# Project Audit — 3-Minute Presentation
+# Project Audit
 
 ## 1. Project Title
 - My project is called **Project Audit: A RAG-Based Assistant for Reviewing Responsible AI Practices in Student Projects**.
